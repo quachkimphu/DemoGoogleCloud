@@ -1,0 +1,36 @@
+{
+  "name": "app-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.5.0",
+    "@progress/kendo-react-dateinputs": "^2.4.0",
+    "@progress/kendo-react-dropdowns": "^2.4.0",
+    "@progress/kendo-react-grid": "^2.4.0",
+    "@progress/kendo-react-inputs": "^2.4.0",
+    "@progress/kendo-react-intl": "^2.4.0",
+    "@progress/kendo-theme-default": "^2.61.0",
+    "auth0-js": "^9.8.2",
+    "axios": "^0.18.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
